@@ -182,3 +182,51 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
   padding-right: 2rem!important
 }
+
+.socials{
+  display:flex;
+}
+
+.blog-footer ul {
+  width: 100%;
+  padding: 0px;
+}
+
+.socials ul{
+  justify-content:center;
+  text-align:center;
+}
+
+.socials ul li{
+  display:inline-block;
+ }
+
+.instagram-post {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 10px;
+ }
+
+.instagram-post>a>img {
+    height: 70px;
+    width: 70px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ }
+
+#instafeed-title {
+  text-align: center;
+  padding-bottom: 15px;
+}
+#instafeed-title>img {
+  margin-left: -15px;
+  margin-right: -15px;
+  width: 125px;
+}

@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="./favicon.ico">
+    <!-- link rel="icon" href="./favicon.ico"> TODO -->
 
-    <title>Blog Template for Bootstrap</title>
+    <title>Benim Güzel Bedenim</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Playfair+Display|EB+Garamond:400,400i,700,700i,900&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="blog.css" rel="stylesheet">
-  </head>
+<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+
 
   <body>
 
@@ -48,6 +48,22 @@
           <a class="p-2 text-muted menu-link" href="#">İMAJ DANIŞMANLIĞI</a>
           <a class="p-2 text-muted menu-link" href="#">İLETİŞİM</a>
         </nav>
+        <div class="socials">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/benimguzelbedenim/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCe5asmZ-KxPuQ0CpigKlYQA" target="_blank"><i class="fa fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/benimguzelbedenim/" target="_blank"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://tr.pinterest.com/benimguzelbedenim/" target="_blank"><i class="fa fa-pinterest"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <!-- <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
@@ -92,7 +108,7 @@
 
     <main role="main" class="container">
       <div class="row">
-        <div class="col-md-11 blog-main">
+        <div class="col-md-9 blog-main">
           <div class="blog-post">
             <!-- <h2 class="blog-post-title">Sima Saruhan ve BGB Felsefesi</h2> -->
             <div style="width: 400px; height: 400px; overflow: hidden; float: left; margin-right: 25px; margin-bottom: 25px;">
@@ -104,13 +120,13 @@
               <div class="card">
                 <div class="card-header" id="headingOne">
                   <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       Kimyadan imaj danışmanlığına nasıl geçtim?
                     </button>
                   </h5>
                 </div>
 
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                   <div class="card-body">
                     <p>Boğaziçi Üniversitesi’nde Kimya okurken Müzik, Fotoğrafçılık ve Güzel Sanatlar kulüplerinde çeşitli aktivitelere katıldım. Bunlardan Güzel Sanatlar Kulübü’nde gittiğim bir dikiş kursunda kumaşlara, dokulara, kıyafet ve aksesuarlara olan ilgimi keşfettim. Üniversiteden mezun olduktan sonra 2 sene boyunca yoğun dikiş ve kalıp çıkarma dersleri aldım. Yine bu dönemde Türkiye’nin ilk moda tasarımcılarından <strong>Bahar Korçan</strong>’ın yanında staj yapma fırsatım oldu. Kumaşın, kalıbın, materyallerin dili olduğunu gördüm. Daha sonrasında bu dili öğrenmeye Barselona’ya geldim diyebilirim.</p>
                   </div>
@@ -156,6 +172,13 @@
 
         </div><!-- /.blog-main -->
 
+        <aside class="col-md-3 blog-sidebar">
+          <div id="instafeed-title">
+            <img src="./img/instagram_logo.png"/>
+          </div>
+          <div id="instafeed" class="row"></div>
+        </aside>
+
         <!-- <aside class="col-md-4 blog-sidebar">
           <div class="p-3 mb-3 bg-light rounded">
             <h4 class="font-italic">About</h4>
@@ -195,26 +218,40 @@
     </main><!-- /.container -->
 
     <footer class="blog-footer">
-      <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <div class="socials">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/benimguzelbedenim/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCe5asmZ-KxPuQ0CpigKlYQA" target="_blank"><i class="fa fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/benimguzelbedenim/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://tr.pinterest.com/benimguzelbedenim/" target="_blank"><i class="fa fa-pinterest"></i></a>
+          </li>
+        </ul>
+      </div>
       <p>
-        <a href="#">Back to top</a>
+        <a href="#">Sayfanın başına dön</a>
       </p>
     </footer>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
-    <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      });
+    <script type="text/javascript" src="./js/instafeed.min.js"></script>
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'user',
+            userId: '3890123422',
+            limit: 21,
+            accessToken: '3890123422.1677ed0.5225817e676945d4a26622abf2d54faa',
+            clientId: '2fd2296609154199be14d92b93c23673',
+            template: '<div class="col-md-4 instagram-post"><a href="{{link}}" target="_blank"><img src="{{image}}"/></a></div>'
+        });
+        feed.run();
     </script>
   </body>
 </html>
